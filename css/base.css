@@ -13,10 +13,10 @@ img{border:0;}
 .footer{ margin-top: 30px; height: 230px; margin-left: auto; margin-right: auto; width: 100%; }
 .foot{ margin: 30px auto; height: 230px; width: 100%; background: #676767; }
 .foot_1 { margin: 0 auto; width: 950px; height: 230px; }
-.pic1 img { position: relative; left: 60px; top: 0px; float: left; }
-.foot_1 .pic1 { position: relative; top: 60px; }
+.pic_1 img { position: relative; left: 60px; top: 0px; float: left; }
+.foot_1 .pic_1 { position: relative; top: 60px; }
 
 
-.foot_info { float: left; color: #fff; position: relative; left: 0px; top: 10px; }
-.foot_weixin { position: relative; width: 120px; float: left; left: 90px; top: 20px; }
+.foot_info { float: left; color: #fff; position: relative; left: 170px; top: 10px; }
+.foot_weixin { position: relative; width: 120px; float: left; left: 260px; top: 20px; }
 .foot_weixin p {position: relative;	top: 10px;left: 30px;bottom: 40px;color: #FFF;}
