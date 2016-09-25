@@ -1,0 +1,22 @@
+body{font-family: 微软雅黑,arial,"\5B8B\4F53"; }
+body{ margin: 0px; padding: 0px; }
+img{border:0;}
+
+
+.header { margin: 0 auto 0px; width: 980px; height: 90px; }
+.header .logo{ float: left; width: 178px; height: 80px; position: relative; left: 10px; }
+.header .m{float:right;line-height:80px;width:580px; }
+.header .m a{color:#333;float:left; text-decoration:none;margin-left:50px;font-size:21px;}
+
+
+
+.footer{ margin-top: 30px; height: 230px; margin-left: auto; margin-right: auto; width: 100%; }
+.foot{ margin: 30px auto; height: 230px; width: 100%; background: #676767; }
+.foot_1 { margin: 0 auto; width: 950px; height: 230px; }
+.pic1 img { position: relative; left: 60px; top: 0px; float: left; }
+.foot_1 .pic1 { position: relative; top: 60px; }
+
+
+.foot_info { float: left; color: #fff; position: relative; left: 0px; top: 10px; }
+.foot_weixin { position: relative; width: 120px; float: left; left: 90px; top: 20px; }
+.foot_weixin p {position: relative;	top: 10px;left: 30px;bottom: 40px;color: #FFF;}

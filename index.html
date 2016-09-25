@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+
+
+<title>宇柏学车 | Home</title>
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/page.css">
+<link rel="stylesheet" href="./css/banner.css">
+
+<script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="script/jquery.SuperSlide.2.1.1.js"></script>
+
+<body>
+
+<div class="header">
+<div class="logo">
+<a href="index.html" title="回到首页">
+<img src="./images/logo1.png">
+</a>
+</div>
+<div class="m">
+<a href="index.html" class="a">首页</a>
+<a href="news.html">新闻</a>
+<a href="downloads.html">下载</a>
+<a href="coop.html">学车指南</a>
+<a href="about.html">关于</a>
+</div>
+</div>
+
+
+<div class="banner-box">
+	<div class="bd">
+        <ul>          	    
+            <li style="background:#F3E5D8;">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/1.jpg" /></a>
+                </div>
+            </li>
+            <li style="background:#B01415">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/2.jpg" /></a>
+                </div>
+            </li>
+            <li style="background:#C49803;">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/3.jpg" /></a>
+                </div>
+            </li>
+            <li style="background:#FDFDF5">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/4.jpg" /></a>
+                </div>
+            </li>  
+         
+        </ul>
+    </div>
+    <div class="banner-btn">
+        <a class="prev" href="javascript:void(0);"></a>
+        <a class="next" href="javascript:void(0);"></a>
+        <div class="hd"><ul></ul></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".prev,.next").hover(function(){
+		$(this).stop(true,false).fadeTo("show",0.9);
+	},function(){
+		$(this).stop(true,false).fadeTo("show",0.4);
+	});
+	
+	$(".banner-box").slide({
+		titCell:".hd ul",
+		mainCell:".bd ul",
+		effect:"fold",
+		interTime:3500,
+		delayTime:500,
+		autoPlay:true,
+		autoPage:true, 
+		trigger:"click" 
+	});
+
+});
+</script>
+
+<div class="guard clearfix">
+            <div class="guard-item">
+                <!--<a target="_blank" href="">-->
+                <div class="guard-icon guard-icon-1"></div>
+                <div class="guard-info">学费高？多收费？</div>
+                <div class="guard-content">全程透明，底价学车</div>
+                <div class="guard-button">价格有保障</div>
+                <!--</a>-->
+            </div>
+
+            <div class="guard-item">
+                <!--<a target="_blank" href="">-->
+                <div class="guard-icon guard-icon-3"></div>
+                <div class="guard-info">担心遭遇黑驾校？</div>
+                <div class="guard-content">驾校资质认证</div>
+                <div class="guard-button">学车有保障</div>
+                <!--</a>-->
+            </div>
+            <div class="guard-item">
+                <!--<a target="_blank" href="">-->
+                <div class="guard-icon guard-icon-4"></div>
+                <div class="guard-info">态度差？教不好？</div>
+                <div class="guard-content">精选资源，优质教练</div>
+                <div class="guard-button">练车有保障</div>
+                <!--</a>-->
+            </div>
+
+            <div class="guard-item">
+                <!--<a target="_blank" href="">-->
+                <div class="guard-icon guard-icon-6"></div>
+                <div class="guard-info">受委屈没处说？</div>
+                <div class="guard-content">不满意随时投诉</div>
+                <div class="guard-button">维权有保障</div>
+                <!--</a>-->
+            </div>
+   </div>
+
+<div id="newshz">
+<div class="news">
+<h2>宇柏动态<a href="news-1.html" target="_blank">更多 &#8250;</a></h2>
+<div class="tuotiao">
+<a href="http://www.eclicks.cn/newsview_m-91.html" title="【力荐】车轮&车王二手车赠券发放遭到疯抢" target="_blank"><img src="http://www.eclicks.cn/pictures/2015/03/eDpPkT.jpg"/>
+<h3>宇柏学车正式上线</h3></a>导语：宇柏学车于2016年9月1日正式登陆百度下载。
+
+</div>
+<ul>
+<li><a href="#" target="_blank">车轮考驾照获《互联网周刊》2015移动应用产品奖</a><span>2016.04.13</span></li>
+<li><a href="#"  target="_blank">【魔都创业24小时全记录】“创业不仅要‘快’更要‘乐</a><span>2016.04.13</span></li>
+<li><a href="#"  target="_blank">百度战略级产品“百度地图”为何会与车轮考驾照合作呢</a><span>2016.04.13</span></li>
+<li><a href="#"  target="_blank"> 车轮考驾照屡获佳绩 再夺教育类2016年度最佳产品大奖</a><span>2016.04.13</span></li>
+</ul>
+</div>
+
+
+<div class="hezou">
+<h2>合作驾校<a href="coop.html" target="_blank"></a></h2>
+<ul>
+<li><img src="images/coo-1.png" /></li>
+<li><img src="images/coo-2.png" /></li>
+<li><img src="images/coo-3.png" /></li>
+<li><img src="images/coo-4.png" /></li>
+</ul>
+</div>
+
+</div>
+
+<div class="footer">
+<div class="foot">
+<div class="foot_1">
+<div class="pic1">
+<img  src="./images/宇柏学车LOGO-学员.png"  width="110" ></div>
+<div class="foot_info" >
+<p style="color: #95fbff;font-weight: bold;">联系我们</p>
+<p>企业QQ：3400384828</p>
+<p>业务邮箱：yubo_brother@aliyun.com</p>
+<p>通讯地址：海南省老城高新技术产业示范区海南生态软件园</p>
+<p>Copyright:  海南宇柏兄弟科技有限公司</p>
+</div>
+
+<div class="foot_weixin">
+<p style="color: #95fbff;font-weight: bold;">关注微信</p>
+<img src="./images/qr_IOS_coach.png"  width="120" >
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
