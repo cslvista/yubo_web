@@ -150,6 +150,10 @@
 }
 .pic2  h2{width:180px;font-size:24px; font-weight:lighter;color:#333;margin:18px 0 0 0;}
 .pic2{float:left;margin-left:1px;margin-right:120px;width:180px}
+.prott2 .pic2 p { font-size: 15px; line-height: 8px; }
+.prott1 .pic1 p { font-size: 15px; line-height: 8px; }
+
+
 .pic21{
 	float:left;
 	margin-left: 0px;
@@ -202,3 +206,7 @@
 }
 
 .aboutbn{width:1011px;margin:0 auto;} 
+
+
+.con{ margin: 0 auto; width: 700px }
+.con p { font-size: 18px; }
